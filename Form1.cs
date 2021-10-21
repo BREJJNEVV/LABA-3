@@ -43,7 +43,7 @@ namespace LABA_3
                 double asd = Sin(x);
 
 
-                decimal sin = (decimal)Math.Sin(x);
+                decimal sin = (decimal)Math.Sin(x); 
                 Convert.ToDecimal(x);
 
             }
@@ -56,7 +56,7 @@ namespace LABA_3
             {
                 MessageBox.Show("Вы выбрали " + radioButton.Text);
                 decimal nmV1 = numericUpDown1.Value;
-
+                int sss = 1;
             }
         }
     }

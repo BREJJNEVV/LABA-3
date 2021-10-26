@@ -46,6 +46,7 @@ namespace LABA_3
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -109,6 +110,7 @@ namespace LABA_3
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Location = new System.Drawing.Point(86, 166);
@@ -156,14 +158,14 @@ namespace LABA_3
             // 
             this.textBox1.Location = new System.Drawing.Point(539, 47);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(148, 20);
             this.textBox1.TabIndex = 11;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(539, 127);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.Size = new System.Drawing.Size(148, 20);
             this.textBox2.TabIndex = 12;
             // 
             // label5
@@ -202,6 +204,16 @@ namespace LABA_3
             this.label8.Size = new System.Drawing.Size(49, 13);
             this.label8.TabIndex = 16;
             this.label8.Text = "=======";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(115, 18);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(66, 41);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "СБРОС";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -254,6 +266,7 @@ namespace LABA_3
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button1;
     }
 }
 
